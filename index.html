@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi" translate="no" class="notranslate">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>THACO Work Schedule</title>
+    <!-- Login hero image is the LCP element on desktop; start fetching it before JS runs. -->
+    <link
+      rel="preload"
+      as="image"
+      href="/images/manhinh-1440.webp"
+      imagesrcset="/images/manhinh-960.webp 960w, /images/manhinh-1440.webp 1440w, /images/manhinh-1920.webp 1920w, /images/manhinh-2560.webp 2560w"
+      imagesizes="(min-width: 1280px) max(67vw, 178vh), max(60vw, 178vh)"
+      media="(min-width: 1024px)"
+      fetchpriority="high"
+    />
+    <script>
+      (function() {
+        try {
+          var mode = localStorage.getItem('theme-mode');
+          if (mode === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.style.backgroundColor = '#0f172a';
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+const RECONNECT_INTERVAL_MS = 3 * 60 * 1000;
+
+export const SIGNALR_CONSTANTS = {
+  NOTIFICATION_HUB_PATH: '/hubs/notifications',
+  RECONNECT_DELAY_SERIES: [RECONNECT_INTERVAL_MS],
+  RECONNECT_FALLBACK_DELAY_MS: RECONNECT_INTERVAL_MS,
+  EVENTS: {
+    RECEIVE_NOTIFICATION: 'ReceiveNotification',
+    RECEIVE_MESSAGE: 'ReceiveMessage',
+    NEW_NOTIFICATION: 'NewNotification',
+  } as const,
+};

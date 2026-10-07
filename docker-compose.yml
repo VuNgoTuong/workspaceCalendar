@@ -1,0 +1,25 @@
+services:
+  fe-cms:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fe-parcel-management
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+      - VITE_API_URL=${VITE_API_BASE_URL}
+      - VITE_APP_URL=${VITE_API_BASE_URL}
+    networks:
+      - thaco-network
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD", "wget", "--quiet", "--tries=1", "--spider", "https://uat.thaco.com.vn:80/" ]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+networks:
+  thaco-network:
+    driver: bridge

@@ -1,0 +1,302 @@
+[
+  {
+    "Key": "DATA_NOT_FOUND",
+    "MessageEN": "Data not found",
+    "MessageVN": "Không tìm thấy dữ liệu."
+  },
+  {
+    "Key": "INVALID_CREDENTIALS",
+    "MessageEN": "Failed to change password. User might not exist.",
+    "MessageVN": "Thay đổi mật khẩu thất bại. Người dùng có thể không tồn tại."
+  },
+  {
+    "Key": "INVALID_REGISTER_INFOR",
+    "MessageEN": "Failed to register user. Username might already exist or password is too weak.",
+    "MessageVN": "Đăng ký thất bại. Người dùng có thể không tồn tại hoặc mật khẩu quá yếu."
+  },
+  {
+    "Key": "INVALID_ASSIGN_ROLE",
+    "MessageEN": "Failed to assign role. Role or user might not exist.",
+    "MessageVN": "Gán vai trò thất bại. Vai trò hoặc người dùng không tồn tại."
+  },
+  {
+    "Key": "INVALID_USER_NAME_OR_PASS",
+    "MessageEN": "Invalid username or password.",
+    "MessageVN": "Tên đăng nhập hoặc mật khẩu không đúng."
+  },
+  {
+    "Key": "CURRENT_PASSWORD_NOT_CORRECT",
+    "MessageEN": "Current password is incorrect.",
+    "MessageVN": "Mật khẩu hiện tại không đúng."
+  },
+  {
+    "Key": "CURRENT_PASSWORD_REQUIRED",
+    "MessageEN": "Current password is required.",
+    "MessageVN": "Vui lòng nhập mật khẩu hiện tại."
+  },
+  {
+    "Key": "NEW_PASSWORD_REQUIRED",
+    "MessageEN": "New password is required.",
+    "MessageVN": "Vui lòng nhập mật khẩu mới."
+  },
+  {
+    "Key": "CONFIRMED_PASSWORD_REQUIRED",
+    "MessageEN": "Confirmed password is required.",
+    "MessageVN": "Vui lòng nhập mật khẩu xác nhận."
+  },
+  {
+    "Key": "PASSWORD_CONFIRMATION_MISMATCH",
+    "MessageEN": "Confirmed password does not match new password.",
+    "MessageVN": "Mật khẩu xác nhận không khớp với mật khẩu mới."
+  },
+  {
+    "Key": "NEW_PASSWORD_RULE",
+    "MessageEN": "Password must be at least 8 characters long and contain uppercase, lowercase, number, and special character.",
+    "MessageVN": "Mật khẩu phải dài ít nhất 8 ký tự và bao gồm chữ hoa, chữ thường, số, và ký tự đặc biệt."
+  },
+  {
+    "Key": "EXPRIRED_REFRESH_TOKEN",
+    "MessageEN": "Failed to refresh token. Invalid or expired refresh token.",
+    "MessageVN": "Không thể làm mới token. Token không hợp lệ hoặc đã hết hạn."
+  },
+  {
+    "Key": "FAILED_RETRIEVE_USER_PERMISSION",
+    "MessageEN": "Failed to retrieve user permissions.",
+    "MessageVN": "Không thể lấy danh sách quyền của người dùng."
+  },
+  {
+    "Key": "CREATE_ROLE_FAILED",
+    "MessageEN": "Failed to create role.",
+    "MessageVN": "Tạo vai trò thất bại."
+  },
+  {
+    "Key": "MOD_ROLE_NOT_FOUND",
+    "MessageEN": "Failed to update role. Role may not exist.",
+    "MessageVN": "Cập nhật vai trò thất bại. Vai trò có thể không tồn tại."
+  },
+  {
+    "Key": "DEL_ROLE_NOT_FOUND",
+    "MessageEN": "Failed to update role. Role may not exist.",
+    "MessageVN": "Xóa vai trò thất bại. Vai trò có thể không tồn tại."
+  },
+  {
+    "Key": "MOD_USER_NOT_FOUND",
+    "MessageEN": "Failed to update user. User may not exist or email is taken.",
+    "MessageVN": "Cập nhật người dùng thất bại. Người dùng có thể không tồn tại hoặc email đã được sử dụng."
+  },
+  {
+    "Key": "DEL_USER_NOT_FOUND",
+    "MessageEN": "Failed to delete user. User may not exist.",
+    "MessageVN": "Xóa người dùng thất bại. Người dùng có thể không tồn tại."
+  },
+  {
+    "Key": "USER_ID_NOT_FOUND",
+    "MessageEN": "User ID not found in token.",
+    "MessageVN": "Không tìm thấy ID người dùng trong token."
+  },
+  {
+    "Key": "INVALID_USER_ID",
+    "MessageEN": "Invalid user ID format.",
+    "MessageVN": "Định dạng ID người dùng không hợp lệ."
+  },
+  {
+    "Key": "FAILED_MOD_USER_ROLE",
+    "MessageEN": "Failed to update roles. User may not exist.",
+    "MessageVN": "Cập nhật vai trò người dùng thất bại. Người dùng có thể không tồn tại."
+  },
+  {
+    "Key": "DEPARTMENT_INACTIVE",
+    "MessageEN": "Cannot grant permission on an inactive department.",
+    "MessageVN": "Không thể phân quyền cho đơn vị bị tắt hoạt động."
+  },
+  {
+    "Key": "USER_NOT_FOUND",
+    "MessageEN": "User not found.",
+    "MessageVN": "Không tìm thấy người dùng."
+  },
+  {
+    "Key": "USER_IS_NOT_EXECUTIVE_MANAGEMENT",
+    "MessageEN": "You don't have permission to working with delegation.",
+    "MessageVN": "Bạn không có quyền làm việc với ủy quyền."
+  },
+  {
+    "Key": "DELEGATION_ALREADY_EXIST",
+    "MessageEN": "A delegation for this user already exists.",
+    "MessageVN": "Ủy quyền đối với thư ký này đã tồn tại."
+  },
+  {
+    "Key": "CAN_NOT_DELETE_SYSTEM_ROLE",
+    "MessageEN": "Can not delete sytem role.",
+    "MessageVN": "Không thể xóa quyền hệ thống."
+  },
+  {
+    "Key": "CAN_NOT_EDIT_SYSTEM_ROLE",
+    "MessageEN": "Can not edit sytem role.",
+    "MessageVN": "Không thể chỉnh sửa quyền hệ thống."
+  },
+  {
+    "Key": "HAS_CONFLICT_SCHEDULE",
+    "MessageEN": "Unable to save due to a schedule conflict.",
+    "MessageVN": "Không thể lưu do có lịch trình khác bị xung đột."
+  },
+  {
+    "Key": "PARTICIPANT_LIST_ID_INVALID",
+    "MessageEN": "UserId is required for all participants.",
+    "MessageVN": "Yêu cầu nhập UserId cho tất cả người tham gia."
+  },
+  {
+    "Key": "SCHEDULE_OCCURRENCE_STATUS_INVALID",
+    "MessageEN": "The current status of the schedule is invalid.",
+    "MessageVN": "Trạng thái hiện tại của lịch trình không hợp lệ."
+  },
+  {
+    "Key": "DONT_HAVE_PERMISSION_ACCESS_SHCEDULE",
+    "MessageEN": "You don't have permission to access this schedule.",
+    "MessageVN": "Bạn không có quyền truy cập lịch trình này."
+  },
+  {
+    "Key": "CANNOT_DELETE_SCHEDULE",
+    "MessageEN": "Schedule not found or schedule has participants.",
+    "MessageVN": "Không tìm thấy lịch trình hoặc lịch trình đã có người tham gia."
+  },
+  {
+    "Key": "START_DATE_MUST_BE_LESS_THAN_END_DATE",
+    "MessageEN": "StartDate must be less than EndDate.",
+    "MessageVN": "Ngày bắt đầu phải nhỏ hơn ngày kết thúc."
+  },
+  {
+    "Key": "INVITATION_STATUS_INVALID",
+    "MessageEN": "Only invitation schedules with a Waiting status can be approved.",
+    "MessageVN": "Chỉ có thể phê duyệt lịch mời có trạng thái Đang chờ."
+  },
+  {
+    "Key": "SCHEDULE_TYPE_NAME_MAX_LENGTH",
+    "MessageEN": "Name must not exceed 255 characters.",
+    "MessageVN": "Tên không được vượt quá 255 ký tự."
+  },
+  {
+    "Key": "SCHEDULE_TYPE_CODE_MAX_LENGTH",
+    "MessageEN": "Code must not exceed 100 characters.",
+    "MessageVN": "Mã không được vượt quá 100 ký tự."
+  },
+  {
+    "Key": "LEADER_IS_REQUIRED",
+    "MessageEN": "Leader is required.",
+    "MessageVN": "Vui lòng chọn người chủ trì."
+  },
+  {
+    "Key": "DETAIL_CONTENT_REQUIRED",
+    "MessageEN": "Detail content is required.",
+    "MessageVN": "Vui lòng nhập nội dung chi tiết."
+  },
+  {
+    "Key": "LOCATION_REQUIRED",
+    "MessageEN": "Location is required.",
+    "MessageVN": "Vui lòng nhập địa điểm."
+  },
+  {
+    "Key": "TITLE_REQUIRED",
+    "MessageEN": "Title is required.",
+    "MessageVN": "Vui lòng nhập tiêu đề."
+  },
+  {
+    "Key": "SCHEDULE_TYPE_REQUIRED",
+    "MessageEN": "Schedule type is required.",
+    "MessageVN": "Vui lòng chọn loại lịch."
+  },
+  {
+    "Key": "END_DATE_REQUIRED",
+    "MessageEN": "End date is required.",
+    "MessageVN": "Vui lòng chọn ngày kết thúc."
+  },
+  {
+    "Key": "START_DATE_REQUIRED",
+    "MessageEN": "Start date is required.",
+    "MessageVN": "Vui lòng chọn ngày bắt đầu."
+  },
+  {
+    "Key": "SCHEDULE_CATEGORY_REQUIRED",
+    "MessageEN": "Schedule category is required.",
+    "MessageVN": "Vui lòng chọn danh mục lịch."
+  },
+  {
+    "Key": "OWNER_SCHEDULE_REQUIRED",
+    "MessageEN": "OwnerUserId is required.",
+    "MessageVN": "Vui lòng nhập OwnerUserId."
+  },
+  {
+    "Key": "ONLY_SAVE_DRAFT_FOR_STATUS_DRAFT",
+    "MessageEN": "You can only save a draft for a schedule that currently has a 'Draft' status.",
+    "MessageVN": "Chỉ có thể lưu nháp cho lịch có trạng thái hiện tại là nháp."
+  },
+  {
+    "Key": "MONTH_INVALID",
+    "MessageEN": "Month must be between 1 and 12.",
+    "MessageVN": "Tháng phải nằm trong khoảng từ 1 đến 12."
+  },
+  {
+    "Key": "YEAR_INVALID",
+    "MessageEN": "Invalid year.",
+    "MessageVN": "Năm không hợp lệ."
+  },
+  {
+    "Key": "CANNOT_DELEGATE_SELF",
+    "MessageEN": "You cannot delegate yourself.",
+    "MessageVN": "Không thể tự ủy quyền cho chính mình."
+  },
+  {
+    "Key": "CODE_MUST_BE_UNIQUE",
+    "MessageEN": "The code must be unique.",
+    "MessageVN": "Mã không được trùng."
+  },
+  {
+    "Key": "CAN_NOT_DELETE_SCHEDULE_TYPE",
+    "MessageEN": "A schedule type cannot be deleted once it has been used in a work schedule.",
+    "MessageVN": "Không thể xóa loại lịch khi đã phát sinh trong lịch làm việc."
+  },
+  {
+    "Key": "NO_SCHEDULE_SELECTED",
+    "MessageEN": "No schedule selected.",
+    "MessageVN": "Không có lịch nào được chọn."
+  },
+  {
+    "Key": "ALL_MUST_BE_WAITING",
+    "MessageEN": "All schedules must be in a pending-approval state.",
+    "MessageVN": "Tất cả lịch đều phải ở trong trạng thái chờ duyệt."
+  },
+  {
+    "Key": "SCHEDULE_QUANTITY_NOT_MATCH",
+    "MessageEN": "The requested number of appointments does not match the actual number recorded in the system.",
+    "MessageVN": "Số lượng lịch yêu cầu và số lượng thực tế trên hệ thống không khớp."
+  },
+  {
+    "Key": "CAN_NOT_CANCEL_IN_TIME",
+    "MessageEN": "Cannot cancel a schedule occurrence that has already ended.",
+    "MessageVN": "Không thể hủy lịch đã hoàn thành."
+  },
+  {
+    "Key": "ATTACHMENT_NOT_FOUND",
+    "MessageEN": "Attachment not found.",
+    "MessageVN": "Tệp đính kèm không tồn tại."
+  },
+  {
+    "Key": "ATTACHMENT_NOT_FOUND_FOR_SCHEDULE",
+    "MessageEN": "Attachment not found for this schedule.",
+    "MessageVN": "Không tìm thấy tệp đính kèm cho lịch trình này."
+  },
+  {
+    "Key": "ONLY_FILE_CAN_BE_STREAMED",
+    "MessageEN": "Only file attachments can be streamed.",
+    "MessageVN": "Chỉ có tệp đính kèm mới có thể tải xuống"
+  },
+  {
+    "Key": "ERROR_STREAMING_ATTACHMENT",
+    "MessageEN": "Error streaming attachment.",
+    "MessageVN": "Lỗi khi tải xuống tệp đính kèm."
+  },
+  {
+    "Key": "DEPARTMENT_INACTIVE",
+    "MessageEN": "Cannot grant permission on an inactive department.",
+    "MessageVN": "Không thể phân quyền cho đơn vị bị tắt hoạt động."
+  }
+]
